@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime Termite Control Lahore — Termite &amp; Pest Treatment</title>
+<meta name="description" content="Prime Termite Control Lahore — inspection-led termite treatment for homes and businesses across Lahore.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #ECE3D0;
+    --bg-panel: #E2D6BC;
+    --ink: #201A13;
+    --ink-soft: #4B4136;
+    --wood: #4A3324;
+    --wood-deep: #2E2013;
+    --rust: #AF5327;
+    --rust-deep: #8B3F1B;
+    --moss: #52643F;
+    --line: rgba(32,26,19,0.16);
+    --line-strong: rgba(32,26,19,0.32);
+    --paper: #F5EFE1;
+  }
+
+  *{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior: auto; }
+    *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+  }
+
+  body{
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3{
+    font-family: 'Zilla Slab', serif;
+    color: var(--wood-deep);
+    margin: 0;
+    line-height: 1.08;
+    font-weight: 600;
+  }
+
+  a{ color: inherit; }
+  img, svg{ display: block; max-width: 100%; }
+
+  :focus-visible{
+    outline: 2px solid var(--rust);
+    outline-offset: 3px;
+  }
+
+  .wrap{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  /* ---------- Header ---------- */
+  header{
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  .header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 24px;
+  }
+  .brand{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    text-decoration: none;
+  }
+  .brand-mark{
+    width: 34px; height: 34px;
+    flex-shrink: 0;
+  }
+  .brand-name{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--wood-deep);
+    letter-spacing: 0.01em;
+  }
+  .brand-name span{ color: var(--rust); }
+
+  nav{ display: flex; align-items: center; gap: 30px; }
+  nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--ink-soft);
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  nav a:hover{ color: var(--wood-deep); border-color: var(--rust); }
+
+  .btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 22px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    white-space: nowrap;
+  }
+  .btn-primary{
+    background: var(--rust);
+    color: var(--paper);
+  }
+  .btn-primary:hover{ background: var(--rust-deep); }
+  .btn-outline{
+    border-color: var(--line-strong);
+    color: var(--wood-deep);
+  }
+  .btn-outline:hover{ border-color: var(--wood-deep); background: var(--bg-panel); }
+
+  .menu-toggle{ display: none; }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding: 76px 0 64px;
+    border-bottom: 1px solid var(--line);
+  }
+  .hero-grid{
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 56px;
+    align-items: center;
+  }
+  .eyebrow-line{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 22px;
+    color: var(--ink-soft);
+    font-size: 14px;
+  }
+  .eyebrow-line .dash{
+    width: 34px; height: 1px;
+    background: var(--rust);
+  }
+  .hero h1{
+    font-size: clamp(34px, 4.6vw, 54px);
+    letter-spacing: -0.01em;
+    max-width: 12ch;
+  }
+  .hero p.lede{
+    margin-top: 22px;
+    font-size: 18px;
+    color: var(--ink-soft);
+    max-width: 46ch;
+  }
+  .hero-actions{
+    margin-top: 32px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .hero-figure{
+    border: 1px solid var(--line-strong);
+    background: var(--paper);
+    padding: 18px;
+    border-radius: 4px;
+  }
+  .hero-figure figcaption{
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--ink-soft);
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+  }
+
+  /* ---------- Stat strip ---------- */
+  .stats{
+    padding: 30px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .stats-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .stat{
+    flex: 1 1 200px;
+    padding: 10px 28px;
+    border-left: 1px solid var(--line);
+  }
+  .stat:first-child{ border-left: none; padding-left: 0; }
+  .stat .n{
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    color: var(--rust-deep);
+    font-weight: 700;
+  }
+  .stat .d{
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin-top: 4px;
+  }
+
+  /* ---------- Section heading pattern ---------- */
+  section{ padding: 84px 0; }
+  .sec-head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: end;
+    margin-bottom: 46px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 26px;
+  }
+  .sec-head h2{
+    font-size: clamp(26px, 3vw, 34px);
+  }
+  .sec-head .sec-note{
+    color: var(--ink-soft);
+    font-size: 16px;
+    max-width: 42ch;
+  }
+
+  /* ---------- Services ---------- */
+  .services{ background: var(--bg-panel); border-bottom: 1px solid var(--line); }
+  .service-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid var(--line-strong);
+  }
+  .service{
+    padding: 26px 26px 26px 0;
+    border-bottom: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: 46px 1fr;
+    gap: 16px;
+  }
+  .service:nth-child(odd){ border-right: 1px solid var(--line); padding-right: 26px; padding-left: 0; }
+  .service:nth-child(even){ padding-left: 26px; }
+  .service .icon{ width: 40px; height: 40px; color: var(--rust-deep); }
+  .service h3{ font-size: 19px; margin-bottom: 6px; }
+  .service p{ margin: 0; color: var(--ink-soft); font-size: 15px; }
+
+  /* ---------- Process ---------- */
+  .process-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    counter-reset: step;
+    border-top: 1px solid var(--line-strong);
+    border-left: 1px solid var(--line-strong);
+  }
+  .step{
+    padding: 26px 24px;
+    border-right: 1px solid var(--line-strong);
+    counter-increment: step;
+    position: relative;
+  }
+  .step::before{
+    content: counter(step, decimal-leading-zero);
+    font-family: 'Zilla Slab', serif;
+    font-size: 15px;
+    color: var(--rust);
+    display: block;
+    margin-bottom: 18px;
+    letter-spacing: 0.04em;
+  }
+  .step h3{ font-size: 18px; margin-bottom: 8px; }
+  .step p{ margin: 0; color: var(--ink-soft); font-size: 14.5px; }
+
+  /* ---------- Areas ---------- */
+  .areas{ background: var(--bg-panel); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .area-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .area-chip{
+    border: 1px solid var(--line-strong);
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-size: 14.5px;
+    color: var(--wood-deep);
+    background: var(--paper);
+  }
+
+  /* ---------- Why ---------- */
+  .why-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 36px;
+  }
+  .why-item .mark{
+    width: 30px; height: 3px;
+    background: var(--moss);
+    margin-bottom: 18px;
+  }
+  .why-item h3{ font-size: 18px; margin-bottom: 8px; }
+  .why-item p{ margin: 0; color: var(--ink-soft); font-size: 15px; }
+
+  /* ---------- CTA banner ---------- */
+  .cta-band{
+    background: var(--wood-deep);
+    color: var(--paper);
+    padding: 70px 0;
+  }
+  .cta-inner{
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+    align-items: center;
+  }
+  .cta-inner h2{ color: var(--paper); font-size: clamp(26px, 3.4vw, 36px); max-width: 16ch; }
+  .cta-inner p{ color: #D8CDB9; margin-top: 14px; max-width: 42ch; }
+  .cta-actions{ display: flex; gap: 14px; flex-wrap: wrap; justify-content: flex-start; }
+  .cta-band .btn-primary{ background: var(--rust); color: var(--paper); }
+  .cta-band .btn-outline{ border-color: rgba(245,239,225,0.4); color: var(--paper); }
+  .cta-band .btn-outline:hover{ background: rgba(245,239,225,0.08); border-color: var(--paper); }
+
+  /* ---------- Footer ---------- */
+  footer{ padding: 46px 0; }
+  .foot-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    border-top: 1px solid var(--line);
+    padding-top: 26px;
+  }
+  .foot-inner .brand-name{ font-size: 16px; }
+  .foot-links{ display: flex; gap: 24px; flex-wrap: wrap; }
+  .foot-links a{ text-decoration: none; font-size: 14px; color: var(--ink-soft); }
+  .foot-links a:hover{ color: var(--rust-deep); }
+  .foot-note{ font-size: 13px; color: var(--ink-soft); margin-top: 16px; }
+
+  @media (max-width: 860px){
+    nav{ display: none; }
+    .hero-grid{ grid-template-columns: 1fr; }
+    .hero-figure{ order: -1; }
+    .sec-head{ grid-template-columns: 1fr; }
+    .service-list{ grid-template-columns: 1fr; }
+    .service:nth-child(odd){ border-right: none; padding-right: 0; }
+    .service:nth-child(even){ padding-left: 0; }
+    .process-list{ grid-template-columns: 1fr 1fr; }
+    .why-grid{ grid-template-columns: 1fr; }
+    .cta-inner{ grid-template-columns: 1fr; }
+    .stats-row{ flex-direction: column; }
+    .stat{ border-left: none; border-top: 1px solid var(--line); padding: 16px 0; }
+    .stat:first-child{ border-top: none; }
+  }
+  @media (max-width: 560px){
+    .process-list{ grid-template-columns: 1fr; }
+    .wrap{ padding: 0 20px; }
+    .header-inner{ padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="1" y="1" width="38" height="38" rx="3" stroke="#4A3324" stroke-width="1.4"/>
+        <path d="M8 30 L8 14 Q8 10 12 10 L28 10 Q32 10 32 14 L32 30" stroke="#4A3324" stroke-width="1.4" fill="none"/>
+        <path d="M13 30 V19 Q13 16 16 16" stroke="#AF5327" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+        <path d="M20 30 V22" stroke="#AF5327" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+        <path d="M27 30 V17 Q27 15 25 15" stroke="#AF5327" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">Prime Termite <span>Control</span> Lahore</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#areas">Areas</a>
+      <a href="#why">Why us</a>
+    </nav>
+    <a class="btn btn-primary" href="https://termitecontrollahore.com/" target="_blank" rel="noopener">Book an inspection</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow-line"><span class="dash"></span>Termite &amp; pest control, Lahore</div>
+        <h1>Termite damage starts inside the wood, long before it shows.</h1>
+        <p class="lede">Prime Termite Control Lahore treats homes, offices and construction sites across the city with inspection-led termite and pest treatment — built to stop colonies before they reach the structure.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://termitecontrollahore.com/" target="_blank" rel="noopener">Visit our website</a>
+          <a class="btn btn-outline" href="https://share.google/NhOU6Fddm6wArjIGm" target="_blank" rel="noopener">See us on Google</a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="beamTitle">
+          <title id="beamTitle">Cross-section of a wooden beam showing termite tunnels being treated</title>
+          <rect x="0" y="0" width="420" height="320" fill="#F5EFE1"/>
+          <rect x="40" y="30" width="340" height="260" rx="6" fill="none" stroke="#4A3324" stroke-width="2"/>
+          <g stroke="#4A3324" stroke-width="1" opacity="0.35">
+            <line x1="40" y1="70" x2="380" y2="70"/>
+            <line x1="40" y1="110" x2="380" y2="110"/>
+            <line x1="40" y1="150" x2="380" y2="150"/>
+            <line x1="40" y1="190" x2="380" y2="190"/>
+            <line x1="40" y1="230" x2="380" y2="230"/>
+            <line x1="40" y1="270" x2="380" y2="270"/>
+          </g>
+          <path d="M60 260 C 90 240, 70 210, 100 190 C 130 170, 110 140, 140 120 C 165 103, 150 80, 175 55" stroke="#AF5327" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M175 55 C 200 75, 190 100, 215 115 C 245 133, 235 160, 265 175 C 290 188, 285 210, 310 225" stroke="#8B3F1B" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 10" stroke-linejoin="round"/>
+          <circle cx="175" cy="55" r="5" fill="#AF5327"/>
+          <circle cx="310" cy="225" r="5" fill="#8B3F1B"/>
+          <g fill="#52643F">
+            <circle cx="330" cy="245" r="3"/>
+            <circle cx="345" cy="255" r="3"/>
+            <circle cx="360" cy="240" r="3"/>
+          </g>
+          <line x1="310" y1="225" x2="330" y2="245" stroke="#52643F" stroke-width="1.4"/>
+          <line x1="330" y1="245" x2="345" y2="255" stroke="#52643F" stroke-width="1.4"/>
+          <line x1="345" y1="255" x2="360" y2="240" stroke="#52643F" stroke-width="1.4"/>
+        </svg>
+        <figcaption>Untreated tunnelling (solid line) vs. a barrier-treated path stopped at the entry point (dashed line).</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="wrap stats-row">
+      <div class="stat">
+        <div class="n">100%</div>
+        <div class="d">Inspection before any treatment plan is quoted</div>
+      </div>
+      <div class="stat">
+        <div class="n">Lahore</div>
+        <div class="d">Residential, commercial &amp; pre-construction sites</div>
+      </div>
+      <div class="stat">
+        <div class="n">Warranty</div>
+        <div class="d">Backed treatment with scheduled follow-up visits</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Treatment built around how termites actually enter a building</h2>
+        <p class="sec-note">Every structure is different — a new foundation, an occupied home, a warehouse — so the treatment method changes with it.</p>
+      </div>
+      <div class="service-list">
+        <div class="service">
+          <svg class="icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6 34V14l14-9 14 9v20H6z" stroke="currentColor" stroke-width="1.6"/><path d="M14 34V22h12v12" stroke="currentColor" stroke-width="1.6"/></svg>
+          <div>
+            <h3>Pre-construction treatment</h3>
+            <p>Chemical soil barrier applied at foundation stage, before slabs and columns are poured, so the structure is protected from the ground up.</p>
+          </div>
+        </div>
+        <div class="service">
+          <svg class="icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="7" y="7" width="26" height="26" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M7 20h26M20 7v26" stroke="currentColor" stroke-width="1.6"/></svg>
+          <div>
+            <h3>Post-construction treatment</h3>
+            <p>Drilling and chemical injection around walls, floors and entry points for buildings that are already occupied or completed.</p>
+          </div>
+        </div>
+        <div class="service">
+          <svg class="icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M8 32c8-2 8-16 16-16 6 0 6 8 12 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="10" cy="30" r="2" fill="currentColor"/></svg>
+          <div>
+            <h3>Wood borer treatment</h3>
+            <p>Targeted treatment for furniture, doors, roof timber and other wood-boring insect damage beyond termites alone.</p>
+          </div>
+        </div>
+        <div class="service">
+          <svg class="icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="16" y="6" width="8" height="28" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M12 34h16" stroke="currentColor" stroke-width="1.6"/></svg>
+          <div>
+            <h3>Termite baiting systems</h3>
+            <p>In-ground bait stations for sites where drilling isn't practical, monitored on a set schedule until activity stops.</p>
+          </div>
+        </div>
+        <div class="service">
+          <svg class="icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="20" cy="20" r="13" stroke="currentColor" stroke-width="1.6"/><path d="M20 13v7l5 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <div>
+            <h3>Annual maintenance contracts</h3>
+            <p>Scheduled re-inspection and touch-up treatment so early activity is caught before it becomes structural damage.</p>
+          </div>
+        </div>
+        <div class="service">
+          <svg class="icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6 30l6-14 6 8 6-16 10 22H6z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <div>
+            <h3>Commercial &amp; industrial sites</h3>
+            <p>Larger-scale treatment for warehouses, factories and offices, scheduled around working hours and operations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>What happens after you call</h2>
+        <p class="sec-note">The same four stages, whether it's one room or a full construction site.</p>
+      </div>
+      <div class="process-list">
+        <div class="step">
+          <h3>Site inspection</h3>
+          <p>A technician checks for live activity, mud tubes, moisture points and likely entry paths around the structure.</p>
+        </div>
+        <div class="step">
+          <h3>Treatment plan</h3>
+          <p>Method and chemical are matched to the building type — soil barrier, drilling, or bait stations.</p>
+        </div>
+        <div class="step">
+          <h3>Application</h3>
+          <p>Treatment is carried out with attention to occupied spaces, pets and ventilation.</p>
+        </div>
+        <div class="step">
+          <h3>Monitoring &amp; warranty</h3>
+          <p>Follow-up visits confirm the treatment held, with warranty coverage on the work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Areas -->
+  <section class="areas" id="areas">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Serving termite control across Lahore</h2>
+        <p class="sec-note">If your area isn't listed, get in touch — most parts of the city are covered.</p>
+      </div>
+      <div class="area-grid">
+        <span class="area-chip">DHA Lahore</span>
+        <span class="area-chip">Gulberg</span>
+        <span class="area-chip">Johar Town</span>
+        <span class="area-chip">Model Town</span>
+        <span class="area-chip">Bahria Town</span>
+        <span class="area-chip">Askari</span>
+        <span class="area-chip">Cantt</span>
+        <span class="area-chip">Wapda Town</span>
+        <span class="area-chip">Township</span>
+        <span class="area-chip">Iqbal Town</span>
+        <span class="area-chip">Valencia</span>
+        <span class="area-chip">Raiwind Road</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why -->
+  <section id="why">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Why property owners in Lahore choose us</h2>
+        <p class="sec-note">Termite treatment is invasive by nature — done right, it's also predictable.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="mark"></div>
+          <h3>Inspection before treatment</h3>
+          <p>No chemical goes down without a technician confirming where and why it's needed.</p>
+        </div>
+        <div class="why-item">
+          <div class="mark"></div>
+          <h3>Family &amp; pet aware</h3>
+          <p>Application is planned around occupied rooms, ventilation and re-entry timing.</p>
+        </div>
+        <div class="why-item">
+          <div class="mark"></div>
+          <h3>Local site experience</h3>
+          <p>Familiar with Lahore's construction styles, soil conditions and common entry points.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="wrap cta-inner">
+      <div>
+        <h2>Get a termite inspection booked before it spreads further.</h2>
+        <p>Reach Prime Termite Control Lahore through our website or find us on Google to see reviews from past jobs across the city.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="https://termitecontrollahore.com/" target="_blank" rel="noopener">Visit termitecontrollahore.com</a>
+        <a class="btn btn-outline" href="https://share.google/NhOU6Fddm6wArjIGm" target="_blank" rel="noopener">Find us on Google</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <span class="brand-name">Prime Termite Control Lahore</span>
+    <div class="foot-links">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#areas">Service areas</a>
+      <a href="https://termitecontrollahore.com/" target="_blank" rel="noopener">Website</a>
+      <a href="https://share.google/NhOU6Fddm6wArjIGm" target="_blank" rel="noopener">Google Business</a>
+    </div>
+  </div>
+  <div class="wrap foot-note">© <span id="year"></span> Prime Termite Control Lahore. All treatment scheduling and pricing handled via the website above.</div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
